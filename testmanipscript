@@ -1,10 +1,5 @@
-local cow = {
-    mood = "indifferent",
-    legs = 4
-}
+local num
 
-function cow:moo()
-    print("The cow has " .. self.legs .. " legs and feels " .. self.mood .. " today. Moo.")
+while task.wait(3) do
+    num += num
 end
-
-cow:moo()
