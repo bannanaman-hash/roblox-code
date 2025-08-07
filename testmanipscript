@@ -1,4 +1,4 @@
-local num
+local num = 1024
 
 while task.wait(3) do
     num += num
